@@ -1,0 +1,255 @@
+
+.centertext {
+	text-align: center;
+}
+
+#intro {
+	text-align: center;
+	margin: 10px 150px;
+	font-family: Montserrat;
+	font-size: 24px;
+}
+
+#logo {
+	padding-top: 40px;
+	height: auto;
+	margin-left: 150px;
+}
+
+.purple{
+	color: #8D8DD9;
+}
+
+.darkpurple{
+	color: #4D4D8C;
+}
+
+.purplebold{
+	color: #4D4D8C;
+	font-weight: bold;
+}
+
+.purplebold:hover{
+	color: #8D8DD9;
+}
+
+p{
+	font-family: Quicksand;
+	font-weight: normal;
+	line-height: 1.6;
+}
+
+h1{
+	font-family: Montserrat;
+	font-weight: normal;
+	font-size: 40px;
+}
+h2{
+	font-family: Montserrat;
+	font-weight: normal;
+	font-size: 36px;
+	margin-top: 60px;
+}
+
+h3 {
+	font-family: Quicksand;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+h4{
+	font-family: Quicksand;
+	font-size: 24px;
+	font-weight: normal;
+	margin-top: 5px;
+}
+
+a:link  {
+	text-decoration: none;
+	color: 000000;
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #8e8eda;
+}
+a:active {
+	color: #8e8eda;
+}
+
+/* top navigation bar*/
+.topnav {
+	float: right;
+	margin-right: 150px;
+	padding-top: 18px;
+	bottom: 0px;
+}
+/* style the links inside the nav bar */
+.topnav a {
+	color: #000000;
+	text-align: center;
+	padding: 14px 16px;
+	bottom: 0;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: Quicksand;
+}
+
+/* color of links on hover*/
+.topnav a:hover {
+	color: #8D8DD9;
+}
+
+/* color to the active/current link */
+.topnav a.active {
+	color: white;
+}
+/* box that will display project*/
+.box{
+	padding: 30px 30px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  filter: drop-shadow(10px 10px 10px #c1c1c1); 
+}
+
+.shadow{
+	filter: drop-shadow(10px 10px 10px #c1c1c1); 
+}
+
+.box:hover .image {
+  opacity: 0.5;
+}
+
+.piclink{
+	opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.piclink:hover {
+	opacity: 0.5;
+}
+
+.center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: 380px 380px 380px;
+	margin-left: 120px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #8e8eda;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#madeby {
+	text-align: center;
+	font-size: 12pt;
+}
+
+#aboutme {
+	font-size: 24px;
+}
+
+#abouttitle {
+	margin-left: 150px;
+}
+
+#dbcaption{
+	margin-left: 300px;
+	margin-right: 300px;
+	/*margin-bottom: 50px;*/
+}
+
+.lineupleft{
+	margin-left: 300px;
+}
+
+
+.grid-layout{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.centerimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#hackxxfilter{
+	margin-left: 70px;
+}
+
+#turtlesticker{
+	margin-left: 80px;
+}
+
+.hackxxcaptions{
+	margin: 50px 50px;
+}
+
+#aboutmepic {
+	margin-left: 70px;
+}
+.topspace{
+	margin-top: 30px;
+}
+
+.smallparagraph{
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+.text-layout{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.triogrid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#rotate{
+	transform: rotate(90deg);
+}
+
+.imgcenter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
