@@ -4,10 +4,10 @@
 }
 
 #intro {
-	text-align: center;
+	margin-left: 300px;
 	margin: 10px 150px;
 	font-family: Montserrat;
-	font-size: 24px;
+	font-size: 26px;
 }
 
 #logo {
@@ -150,9 +150,10 @@ a:active {
 }
 .grid-container{
 	display: grid;
-	grid-template-columns: 380px 380px 380px;
+	grid-template-columns: 390px 390px 390px;
 	margin: auto;
 	justify-content: center;
+	align-items: center;
 }
 
 hr {
@@ -200,7 +201,18 @@ hr {
 	margin-right: 150px;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	justify-items: center;
+	justify-content: center;
+	align-content: center;
+}
+
+.alarmredesigngrid{
+	display: grid;
+	grid-template-columns: 300px 300px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	justify-content: center;
 	align-content: center;
 }
 
@@ -251,6 +263,8 @@ hr {
 	margin-right: 150px;
 	margin-top: 50px;
 	margin-bottom: 50px;
+	justify-content: center;
+	align-content: center;
 }
 
 #rotate{
