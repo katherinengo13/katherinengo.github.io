@@ -130,6 +130,15 @@ a:active {
   opacity: 0.5;
 }
 
+.boxtext{
+	color: #8D8DD9;
+	visibility: hidden;
+}
+
+.box:hover .boxtext{
+	visibility: visible;
+}
+
 .piclink{
 	opacity: 1;
   display: block;
@@ -279,3 +288,22 @@ hr {
 .DFAtext{
 	color: #d89809;
 }
+
+/* .img_description {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: white;
+	color: #fff;
+	visibility: hidden;
+	opacity: 0;
+  
+	transition: opacity .2s, visibility .2s;
+} */
+
+/* .box:hover .img_description {
+	visibility: visible;
+	opacity: 0.5;
+} */
