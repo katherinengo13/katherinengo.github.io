@@ -4,16 +4,16 @@
 }
 
 #intro {
-	margin-left: 300px;
-	margin: 10px 150px;
+	margin: 10px 130px;
 	font-family: Montserrat;
-	font-size: 26px;
+	font-size: 24px;
 }
 
 #logo {
-	padding-top: 40px;
+	padding-top: 20px;
 	height: auto;
-	margin-left: 150px;
+	margin-left: 130px;
+	margin-right: 150px;
 }
 
 .purple{
@@ -82,18 +82,18 @@ a:active {
 /* top navigation bar*/
 .topnav {
 	float: right;
-	margin-right: 150px;
-	padding-top: 18px;
+	padding-top: 20px;
 	bottom: 0px;
 }
 /* style the links inside the nav bar */
 .topnav a {
 	color: #000000;
 	text-align: center;
-	padding: 14px 16px;
+	padding: auto;
+	padding-left: 10px;
 	bottom: 0;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 16px;
 	font-family: Quicksand;
 }
 
@@ -102,14 +102,15 @@ a:active {
 	color: #8D8DD9;
 }
 
-/* color to the active/current link */
-.topnav a.active {
-	color: white;
+/* current page */
+.topnav .current{
+	color:#8D8DD9;
+	font-weight: bold;
 }
 
 /* box that will display project*/
 .box{
-	padding: 30px 30px;
+	margin: auto;
 }
 
 .image {
@@ -131,8 +132,9 @@ a:active {
 }
 
 .boxtext{
-	color: #8D8DD9;
+	color: black;
 	visibility: hidden;
+	text-align: center;
 }
 
 .box:hover .boxtext{
@@ -159,8 +161,9 @@ a:active {
 }
 .grid-container{
 	display: grid;
-	grid-template-columns: 390px 390px 390px;
+	grid-template-columns: 400px 400px 400px;
 	margin: auto;
+	margin-top: 30px;
 	justify-content: center;
 	align-items: center;
 }
@@ -169,8 +172,9 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 2px solid #8e8eda;
-    margin: 1em 0;
+    border-bottom: 1px solid #8e8eda;
+	margin: 1em 0;
+	margin-top: 3px;
     padding: 0;
 }
 
@@ -187,10 +191,9 @@ hr {
 	margin-left: 150px;
 }
 
-#dbcaption{
+.marginleftright{
 	margin-left: 300px;
 	margin-right: 300px;
-	/*margin-bottom: 50px;*/
 }
 
 #tab{
@@ -216,7 +219,7 @@ hr {
 
 .alarmredesigngrid{
 	display: grid;
-	grid-template-columns: 300px 300px;
+	grid-template-columns: 400px 400px;
 	margin-left: 150px;
 	margin-right: 150px;
 	margin-top: 50px;
