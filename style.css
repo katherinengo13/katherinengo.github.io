@@ -292,21 +292,6 @@ hr {
 	color: #d89809;
 }
 
-/* .img_description {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: white;
-	color: #fff;
-	visibility: hidden;
-	opacity: 0;
-  
-	transition: opacity .2s, visibility .2s;
-} */
-
-/* .box:hover .img_description {
-	visibility: visible;
-	opacity: 0.5;
-} */
+.backgroundblue{
+	background-color: cornflowerblue;
+}
