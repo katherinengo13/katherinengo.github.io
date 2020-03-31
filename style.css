@@ -1,3 +1,7 @@
+/* 
+body{
+	background-color: rgb(253, 249, 234);
+} */
 
 .centertext {
 	text-align: center;
@@ -5,15 +9,17 @@
 
 #intro {
 	margin: 10px 130px;
+	padding-top: 20px;
 	font-family: Montserrat;
 	font-size: 24px;
 }
 
 #logo {
-	padding-top: 20px;
-	height: auto;
+	padding-top: 10px; 
+	height: auto; 
+	margin-top: 0px;
 	margin-left: 130px;
-	margin-right: 150px;
+	margin-right: 130px;
 }
 
 .purple{
@@ -79,9 +85,15 @@ a:active {
 	color: #8e8eda;
 }
 
+/* fullnav bar*/
+#fullnav{
+	background-color: cornflowerblue;
+}
+
 /* top navigation bar*/
 .topnav {
 	float: right;
+	/* margin-right: 130px; */
 	padding-top: 20px;
 	bottom: 0px;
 }
@@ -169,6 +181,7 @@ a:active {
 }
 
 hr {
+	visibility: hidden;
     display: block;
     height: 1px;
     border: 0;
@@ -188,7 +201,7 @@ hr {
 }
 
 #abouttitle {
-	margin-left: 150px;
+	margin-left: 130px;
 }
 
 .marginleftright{
@@ -209,8 +222,8 @@ hr {
 .grid-layout{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	margin-left: 150px;
-	margin-right: 150px;
+	margin-left: 130px;
+	margin-right: 130px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	justify-content: center;
@@ -291,7 +304,39 @@ hr {
 .DFAtext{
 	color: #d89809;
 }
-
 .backgroundblue{
 	background-color: cornflowerblue;
+}
+
+/* Make responsive */
+@media screen and (max-width: 768px) {
+	.grid-container{
+		display: grid;
+		grid-template-columns: 400px;
+		margin: auto;
+		margin-top: 30px;
+		justify-content: center;
+		align-items: center;
+	}
+	.grid-layout{
+		display: grid;
+		grid-template-columns: 1fr;
+		margin-left: 130px;
+		margin-right: 130px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		justify-content: center;
+		align-content: center;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px){
+	.grid-container{
+		display: grid;
+		grid-template-columns: 400px 400px;
+		margin: auto;
+		margin-top: 30px;
+		justify-content: center;
+		align-items: center;
+	}
 }
