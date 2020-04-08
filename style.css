@@ -3,6 +3,7 @@ body{
 	background-color: rgb(253, 249, 234);
 } */
 
+
 .centertext {
 	text-align: center;
 }
@@ -11,6 +12,7 @@ body{
 	margin: 10px 130px;
 	padding-top: 20px;
 	font-family: Montserrat;
+	font-weight: 300;
 	font-size: 24px;
 }
 
@@ -41,33 +43,32 @@ body{
 
 p{
 	font-family: Montserrat;
-	font-weight: normal;
+	font-weight: 300;
 	line-height: 1.6;
 }
 
 h1{
 	font-family: Quicksand;
-	font-weight: normal;
+	font-weight: 400;
 	font-size: 40px;
 }
 h2{
 	font-family: Quicksand;
-	font-weight: normal;
+	font-weight: 400;
 	font-size: 36px;
 	margin-top: 60px;
 }
 
 h3 {
 	font-family: Montserrat;
-	font-weight: bold;
+	font-weight: 400;
 	font-size: 24px;
 }
 
 h4{
 	font-family: Montserrat;
 	font-size: 24px;
-	font-weight: normal;
-	margin-top: 5px;
+	font-weight: 500;
 }
 
 a:link  {
@@ -107,6 +108,7 @@ a:active {
 	text-decoration: none;
 	font-size: 16px;
 	font-family: Quicksand;
+	font-weight: 400;
 }
 
 /* color of links on hover*/
@@ -209,6 +211,11 @@ hr {
 	margin-right: 300px;
 }
 
+.marginleftright200{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
 #tab{
 	margin-left: 50px;
 	margin-right: 50px;
@@ -224,6 +231,26 @@ hr {
 	grid-template-columns: 1fr 1fr;
 	margin-left: 130px;
 	margin-right: 130px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	justify-content: center;
+	align-content: center;
+}
+
+.grid-layout2{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	margin-left: 200px;
+	margin-right: 200px;
+	justify-content: center;
+	align-content: center;
+}
+
+.grid-layout2-even{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 200px;
+	margin-right: 200px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	justify-content: center;
@@ -311,22 +338,30 @@ hr {
 /* Make responsive */
 @media screen and (max-width: 768px) {
 	.grid-container{
-		display: grid;
+		/* display: grid; */
 		grid-template-columns: 400px;
-		margin: auto;
+		/* margin: auto;
 		margin-top: 30px;
 		justify-content: center;
-		align-items: center;
+		align-items: center; */
 	}
 	.grid-layout{
-		display: grid;
+		/* display: grid; */
 		grid-template-columns: 1fr;
-		margin-left: 130px;
+		/* margin-left: 130px;
 		margin-right: 130px;
 		margin-top: 50px;
 		margin-bottom: 50px;
 		justify-content: center;
-		align-content: center;
+		align-content: center; */
+	}
+
+	.grid-layout2{
+		grid-template-columns: 1fr;
+	}
+	
+	.grid-layout2-even{
+		grid-template-columns: 1fr;
 	}
 }
 
@@ -339,4 +374,28 @@ hr {
 		justify-content: center;
 		align-items: center;
 	}
+}
+
+/* SchoolProven style */
+.spheading{
+	color: rgb(63, 134, 53);
+	font-family: Lato;
+	font-weight: 700;
+}
+
+.spheading2{
+	color: darkgrey;
+	font-family: Lato;
+	font-weight: 700;
+	padding-left: 100px;
+}
+
+.latolight{
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 22px;
+}
+
+.spborder{
+	border: 4px solid rgb(63, 134, 53);
 }
