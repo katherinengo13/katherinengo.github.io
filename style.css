@@ -11,7 +11,25 @@ body{
 #intro {
 	margin: 10px 130px;
 	padding-top: 20px;
-	font-family: Montserrat;
+}
+
+#name{
+	font-family: Lato;
+	font-weight: 400;
+	font-size: 40px;
+	margin-bottom: 3px;
+	color: #4D4D8C;
+}
+
+#name-pronounciation{
+	font-family: Lato;
+	font-weight: 100;
+	font-size: 24px;
+	margin-bottom: 3px;
+}
+
+#name-def{
+	font-family: Lato;
 	font-weight: 300;
 	font-size: 24px;
 }
@@ -109,7 +127,7 @@ a:active {
 	bottom: 0;
 	text-decoration: none;
 	font-size: 16px;
-	font-family: Quicksand;
+	font-family: Montserrat;
 	font-weight: 400;
 }
 
@@ -398,12 +416,11 @@ hr {
 	font-size: 22px;
 }
 
-.spborder{
-	border: 4px solid rgb(63, 134, 53);
+.latothin{
+	font-family: Lato;
+	font-weight: 100;
 }
 
-.sp-wireframes{
-	width: 800px;
-	margin: auto;
-	margin-bottom: 30px;
+.spborder{
+	border: 4px solid rgb(63, 134, 53);
 }
