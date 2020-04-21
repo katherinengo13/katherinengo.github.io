@@ -302,8 +302,8 @@ hr {
 .grid-layout2-even{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	margin-left: 200px;
-	margin-right: 200px;
+	/* margin-left: 200px; */
+	/* margin-right: 200px; */
 	margin-top: 50px;
 	margin-bottom: 50px;
 	justify-content: center;
