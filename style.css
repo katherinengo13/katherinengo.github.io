@@ -255,7 +255,7 @@ hr {
 }
 
 #abouttitle {
-	margin-left: 130px;
+	font-family: Lato;
 }
 
 .marginleftright{
@@ -342,7 +342,8 @@ hr {
 }
 
 #aboutmepic {
-	margin-left: 70px;
+	vertical-align: middle;
+	margin-top: 40px;
 }
 .topspace{
 	margin-top: 30px;
