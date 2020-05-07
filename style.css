@@ -297,6 +297,7 @@ hr {
 	justify-content: center;
 	align-content: center;
 	grid-column-gap: 30px;
+	grid-row-gap: 30px;
 }
 
 .grid-layout2-even{
@@ -304,7 +305,7 @@ hr {
 	grid-template-columns: 1fr 1fr;
 	/* margin-left: 200px; */
 	/* margin-right: 200px; */
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-bottom: 50px;
 	justify-content: center;
 	align-content: center;
@@ -530,4 +531,22 @@ hr {
 
 .spappimage{
 	width: 30%;
+}
+
+/* UberEats style */
+.blackheading{
+	color: black;
+	font-family: Lato;
+	font-weight: 700;
+}
+
+.grayhighlight{
+	font-weight: 400;
+	background-color: rgba(190, 190, 190, 0.603);
+}
+
+.graybold{
+	color: darkgrey;
+	font-family: Lato;
+	font-weight: 700;
 }
