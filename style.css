@@ -310,6 +310,7 @@ hr {
 	justify-content: center;
 	align-content: center;
 	grid-column-gap: 30px;
+	grid-row-gap: 30px;
 }
 
 .alarmredesigngrid{
@@ -549,4 +550,10 @@ hr {
 	color: darkgrey;
 	font-family: Lato;
 	font-weight: 700;
+}
+
+.sourcelink{
+	font-size: 12px;
+	font-family: Lato;
+	font-weight: 300px;
 }
