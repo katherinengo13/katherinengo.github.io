@@ -10,16 +10,16 @@ body{
 
 #intro {
 	margin: 10px 130px;
-	padding-top: 20px;
+	padding-top: 10px; 
 }
 
 #name{
 	font-family: Lato;
 	font-weight: 400;
 	font-size: 40px;
-	margin-bottom: 3px;
-	color: #4D4D8C;
+	color: rgb(63, 63, 117);
 	text-align: left;
+	margin-bottom: 3px;
 }
 
 #name-pronounciation{
@@ -33,7 +33,7 @@ body{
 #name-def{
 	font-family: Lato;
 	font-weight: 300;
-	font-size: 24px;
+	font-size: 20px;
 	text-align: left;
 }
 
@@ -53,9 +53,10 @@ body{
 .projecttags{
 	margin-top: 1px;
 	font-family: Lato;
-	font-weight: 100;
-	font-size: 18px;
+	font-weight: 300;
+	font-size: 14px;
 	text-align: left;
+	color: rgb(92, 92, 92);
 }
 
 #logo {
@@ -75,13 +76,13 @@ body{
 }
 
 .purplebold{
-	color: #4D4D8C;
-	font-weight: bold;
+	color:  rgb(63, 63, 117);
+	font-weight: 400;
 }
 
-.purplebold:hover{
+/* .purplebold:hover{
 	color: #8D8DD9;
-}
+} */
 
 p{
 	font-family: Lato;
@@ -232,6 +233,7 @@ a:active {
 	margin-top: 30px;
 	justify-content: center;
 	align-items: center;
+	grid-row-gap: 15px;
 }
 
 hr {
@@ -256,6 +258,9 @@ hr {
 
 #abouttitle {
 	font-family: Lato;
+	font-weight: 400;
+	font-size: 40px;
+	color: rgb(63, 63, 117);
 }
 
 .marginleftright{
