@@ -577,7 +577,7 @@ hr {
 } 
 
 
-@keyframes bounce{
+@-webkit-keyframes bounce{
 
 	from, 20%, 53%, 80%, to {
 		-webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
@@ -617,7 +617,7 @@ hr {
 	}
 }
 
-@keyframes fadeInDown{
+@-webkit-keyframes fadeInDown{
 
 	from {
 		opacity: 0;
@@ -631,7 +631,7 @@ hr {
 	}
 }
 
-@keyframes fadeInLeft{
+@-webkit-keyframes fadeInLeft{
 
 	from {
 		opacity: 0;
@@ -645,7 +645,7 @@ hr {
 	}
 }
 
-@keyframes fadeIn{
+@-webkit-keyframes fadeIn{
 
 	from {
 		opacity: 0;
@@ -655,7 +655,7 @@ hr {
 	}
 }
 
-@keyframes tada{
+@-webkit-keyframes tada{
 
 	from {
 		-webkit-transform: scale3d(1, 1, 1);
@@ -679,7 +679,7 @@ hr {
 	}
 }
 
-@keyframes pulse{
+@-webkit-keyframes pulse{
 
 	from {
 		-webkit-transform: scale3d(1, 1, 1);
