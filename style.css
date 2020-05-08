@@ -252,10 +252,6 @@ hr {
 	font-size: 12pt;
 }
 
-#aboutme {
-	font-size: 24px;
-}
-
 #abouttitle {
 	font-family: Lato;
 	font-weight: 400;
@@ -573,6 +569,13 @@ hr {
 .projectpic:hover{
 	animation: pulse 1s forwards 0s ease;
 }
+#abouttitle{
+	animation: fadeIn 3s forwards 0s ease;
+}
+#aboutmepic{
+	animation: bounce 2s forwards 0s ease;
+} 
+
 
 @keyframes bounce{
 
@@ -597,6 +600,20 @@ hr {
 	90% {
 		-webkit-transform: translate3d(0,-4px,0);
 		transform: translate3d(0,-4px,0);
+	}
+}
+
+@-webkit-keyframes fadeInDown{
+
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
 	}
 }
 
