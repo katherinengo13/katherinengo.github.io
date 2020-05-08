@@ -129,6 +129,20 @@ a:visited {
 a:hover {
 	color: #8a8a8a;
 }
+
+
+#backwork{
+	color:  rgb(63, 63, 117);
+	font-weight: 400;
+	font-size: 18px;
+	font-family: Lato;
+	margin-left: 50px;
+}
+
+#backwork:hover{
+	color: #8a8a8a;
+}
+
 a:active {
 	color: #8e8eda;
 }
@@ -250,6 +264,7 @@ hr {
 #madeby {
 	text-align: center;
 	font-size: 12pt;
+	margin-top: 30px;
 }
 
 #abouttitle {
