@@ -247,7 +247,7 @@ a:active {
 	margin-top: 30px;
 	justify-content: center;
 	align-items: center;
-	grid-row-gap: 15px;
+	grid-row-gap: 5px;
 }
 
 hr {
@@ -479,6 +479,8 @@ hr {
 @media screen and (max-width: 425px) {
 	#name{
 		font-size: 14px;
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 	#name-pronounciation{
 		font-size: 14px;
