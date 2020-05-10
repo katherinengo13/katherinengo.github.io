@@ -1,7 +1,8 @@
 /* 
 body{
-	background-color: rgb(253, 249, 234);
+	background-color: black;
 } */
+
 
 
 .centertext {
@@ -203,7 +204,7 @@ a:active {
 }
 
 .shadow{
-	filter: drop-shadow(10px 10px 10px #c1c1c1); 
+	filter: drop-shadow(10px 10px 10px #797979b0); 
 }
 
 .box:hover .image {
@@ -251,14 +252,15 @@ a:active {
 }
 
 hr {
-	visibility: hidden;
     display: block;
     height: 1px;
     border: 0;
-    border-bottom: 1px solid #8e8eda;
+    border-bottom: 1px solid #bbbaba7a;
 	margin: 1em 0;
 	margin-top: 3px;
-    padding: 0;
+	padding: 0;
+	margin-left: 200px;
+	margin-right: 200px;
 }
 
 #madeby {
@@ -577,6 +579,13 @@ hr {
 	font-size: 12px;
 	font-family: Lato;
 	font-weight: 300px;
+}
+
+/* DFA style */
+.dfaheading{
+	color: rgb(187, 122, 25);
+	font-family: Lato;
+	font-weight: 700;
 }
 
 /* ANIMATIONS */
