@@ -196,7 +196,7 @@ a:active {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-  filter: drop-shadow(10px 10px 10px #c1c1c1); 
+  filter: drop-shadow(10px 10px 10px #c1c1c156); 
 }
 
 .projectbannerimage{
@@ -204,7 +204,7 @@ a:active {
 }
 
 .shadow{
-	filter: drop-shadow(10px 10px 10px #797979b0); 
+	filter: drop-shadow(10px 10px 10px #a8a8a8cb); 
 }
 
 .box:hover .image {
