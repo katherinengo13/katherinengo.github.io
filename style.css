@@ -17,7 +17,7 @@ body{
 #name{
 	font-family: Lato;
 	font-weight: 400;
-	font-size: 40px;
+	font-size: 36px;
 	color: rgb(63, 63, 117);
 	text-align: left;
 	margin-bottom: 3px;
@@ -207,31 +207,19 @@ a:active {
 	filter: drop-shadow(10px 10px 10px #a8a8a8cb); 
 }
 
-.box:hover .image {
-  opacity: 0.5;
-}
-
 .boxtext{
 	color: black;
 	visibility: hidden;
 	text-align: center;
 }
 
-.box:hover .boxtext{
-	visibility: visible;
-}
-
-.piclink{
+.piclink{ 
 	opacity: 1;
   display: block;
   width: 100%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-}
-
-.piclink:hover {
-	opacity: 0.5;
 }
 
 .center{
@@ -584,6 +572,13 @@ hr {
 /* DFA style */
 .dfaheading{
 	color: rgb(187, 122, 25);
+	font-family: Lato;
+	font-weight: 700;
+}
+
+/* GroceryHop style */
+.ghheading{
+	color: rgb(199, 140, 69);
 	font-family: Lato;
 	font-weight: 700;
 }
