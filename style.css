@@ -64,8 +64,8 @@ body{
 	padding-top: 10px; 
 	height: auto; 
 	margin-top: 0px;
-	margin-left: 130px;
-	margin-right: 130px;
+	margin: auto;
+	width: 1150px;
 }
 
 .purple{
@@ -152,11 +152,6 @@ a:hover {
 
 a:active {
 	color: #8e8eda;
-}
-
-/* fullnav bar*/
-#fullnav{
-	background-color: cornflowerblue;
 }
 
 /* top navigation bar*/
@@ -304,12 +299,12 @@ hr {
 .grid-layout2{
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-	margin-left: 200px;
-	margin-right: 200px;
 	justify-content: center;
 	align-content: center;
 	grid-column-gap: 30px;
 	grid-row-gap: 30px;
+	width: 1000px;
+	margin: auto;
 }
 
 .grid-layout2-even{
@@ -387,6 +382,7 @@ hr {
 	justify-content: center;
 	align-content: center;
 	width: 100%;
+	grid-column-gap: 80px;
 }
 
 #rotate{
@@ -406,6 +402,8 @@ hr {
 }
 
 /* Make responsive */
+
+
 @media screen and (max-width: 768px) {
 	.grid-container{
 		grid-template-columns: 550px;
@@ -476,8 +474,8 @@ hr {
 @media screen and (max-width: 425px) {
 	#name{
 		font-size: 14px;
-		margin-left: 0px;
-		margin-right: 0px;
+		margin-left: 5px;
+		margin-right: 5px;
 	}
 	#name-pronounciation{
 		font-size: 14px;
@@ -611,6 +609,9 @@ hr {
 #aboutmepic{
 	animation: bounce 2s forwards 0s ease;
 } 
+.topimage{
+	animation: fadeIn 2s forwards 0s ease;
+}
 
 
 @-webkit-keyframes bounce{
