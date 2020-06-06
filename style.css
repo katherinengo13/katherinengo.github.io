@@ -4,7 +4,6 @@ body{
 } */
 
 
-
 .centertext {
 	text-align: center;
 }
@@ -271,8 +270,8 @@ hr {
 }
 
 .marginleftright200{
-	margin-left: 200px;
-	margin-right: 200px;
+	width: 1000px;
+	margin: auto;
 }
 
 #tab{
@@ -383,6 +382,18 @@ hr {
 	align-content: center;
 	width: 100%;
 	grid-column-gap: 80px;
+}
+
+.triogrid2{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: center;
+	align-content: center;
+	width: 1000px;
+	margin: auto;
+	grid-column-gap: 80px;
+	margin-top: 30px;
+	margin-bottom: 50px;
 }
 
 #rotate{
@@ -519,8 +530,8 @@ hr {
 .spheading2{
 	color: rgb(129, 128, 128);
 	font-family: Lato;
-	font-weight: 700;
-	padding-left: 87px;
+	font-weight: 400;
+	font-size: 20px;
 }
 
 .latolight{
