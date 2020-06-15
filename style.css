@@ -85,11 +85,11 @@ body{
 } */
 
 p{
-	font-family: Nunito;
+	font-family: "Nunito", sans-serif;
 	font-weight: 200;
 	line-height: 1.6;
 	margin-top: 0px;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .small{
