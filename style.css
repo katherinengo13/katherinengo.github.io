@@ -204,7 +204,7 @@ a:active {
 }
 
 .shadow{
-	filter: drop-shadow(10px 10px 10px #a8a8a8cb); 
+	filter: drop-shadow(8px 8px 8px #c2c2c2cb); 
 }
 
 .boxtext{
@@ -601,6 +601,13 @@ hr {
 .orangehighlight{
 	font-weight: 400;
 	background-color: rgb(238, 199, 150) ;
+}
+
+/*WTDexcom Style*/
+.wtdheading{
+	color: #56A846;
+	font-family: Lato;
+	font-weight: 700;
 }
 
 /* ANIMATIONS */
